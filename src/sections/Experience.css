@@ -1,0 +1,23 @@
+#accordion .header {
+  font-size: 25px;
+}
+
+#accordion .dx-accordion-item-title {
+  display: flex;
+  gap: 20px;
+  background-color: #e5edff;
+}
+
+#accordion .dx-accordion-item-body {
+  padding: 12px 0;
+}
+
+#accordion .experience-item {
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 32px;
+}
+
+#accordion .dx-accordion-item {
+  margin-bottom: 16px;
+}

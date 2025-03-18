@@ -1,0 +1,9 @@
+#skills_icons .dx-icon {
+  width: 60px;
+  height: 60px;
+}
+
+#skills_icons #devexpress .dx-icon {
+  width: 45px;
+  height: 45px;
+}
