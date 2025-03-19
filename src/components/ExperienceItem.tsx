@@ -1,40 +1,43 @@
 interface ExperienceItemProps {
-  ID: number;
-  Title: string;
-  Date: string;
-  CompanyName: string;
-  Address: string;
-  Details: string[];
-  Website?: string;
+  id: number;
+  title: string;
+  startDate: string;
+  endDate: string;
+  companyName: string;
+  address: string;
+  descriptions: string[];
+  website?: string;
 }
 
 export const ExperienceItem = (data: ExperienceItemProps) => {
   return (
     <div className="experience-item">
-      <div className="flex justify-between">
-        <span className="subheading">{data.CompanyName}</span>
-        <span className="subheading">{data.Date}</span>
+      <div className="flex justify-between items-center">
+        <span className="subheading">{data.companyName}</span>
+        <p className="text-base">
+          {data.startDate} - {data.endDate}
+        </p>
       </div>
       <p className="mb-3">
-        <span className="text-base">{data.Address}</span>
+        <span className="text-base">{data.address}</span>
       </p>
       <ul className="list-disc ml-5 mb-3">
-        {data.Details.map((detail, index) => (
+        {data.descriptions.map((description, index) => (
           <li key={index} className="mb-1 text-base">
-            {detail}
+            {description}
           </li>
         ))}
       </ul>
-      {data.Website && (
+      {data.website && (
         <div className="flex text-base">
           <p className="font-semibold ">Website:</p>
           <a
-            href={data.Website}
+            href={data.website}
             target="_blank"
             rel="noreferrer"
             className="text-primary ml-2"
           >
-            {data.Website}
+            {data.website}
           </a>
         </div>
       )}
@@ -43,5 +46,5 @@ export const ExperienceItem = (data: ExperienceItemProps) => {
 };
 
 export const ExperienceItemTitle = (data: ExperienceItemProps) => {
-  return <div className="header">{data.Title}</div>;
+  return <div className="header">{data.title}</div>;
 };

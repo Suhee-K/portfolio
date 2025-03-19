@@ -4,11 +4,11 @@ import {
   ExperienceItem,
   ExperienceItemTitle,
 } from "../components/ExperienceItem";
-import companies from "../data/ExperienceData";
+import { sortedCompanies } from "../data/ExperienceData";
 import "./Experience.css";
 
 const Experience = () => {
-  const [selectedItems, setSelectedItems] = useState(companies);
+  const [selectedItems, setSelectedItems] = useState(sortedCompanies);
 
   const selectionChanged = useCallback(
     (e: AccordionTypes.SelectionChangedEvent) => {
@@ -34,9 +34,7 @@ const Experience = () => {
         <h1 className="heading text-center ">Experiences</h1>
         <div className="w-1/2 mx-auto mt-10" id="accordion">
           <Accordion
-            dataSource={companies.sort((a, b) =>
-              a.Date < b.Date ? 1 : a.Date > b.Date ? -1 : 0
-            )}
+            dataSource={sortedCompanies}
             collapsible={true}
             multiple={true}
             animationDuration={500}

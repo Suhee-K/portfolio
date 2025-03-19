@@ -6,6 +6,8 @@ import Nav from "./components/Nav";
 import Experience from "./sections/Experience";
 import config from "devextreme/core/config";
 import { licenseKey } from "./devextreme-license";
+import Footer from "./components/Footer";
+import Awards from "./sections/Awards";
 
 function App() {
   config({
@@ -27,6 +29,10 @@ function App() {
       <section id="projects">
         <Projects />
       </section>
+      <section id="awards">
+        <Awards />
+      </section>
+      <Footer />
     </div>
   );
 }
