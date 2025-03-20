@@ -23,7 +23,7 @@ const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <div className="flex justify-between mt-14 gap-20">
-      <img src={imageUrl} alt="project" width={600} />
+      <img src={imageUrl} alt="project" width={600} className="rounded-lg" />
       <div className="w-full space-y-5 flex flex-col justify-center">
         <div className="flex items-center justify-between">
           {id === 2 ? (

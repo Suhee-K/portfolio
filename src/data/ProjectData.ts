@@ -1,3 +1,6 @@
+import careerAssessment from "../images/CareerAssessmentTool.png";
+import autoBlog from "../images/AutoBlog.png";
+
 export const projects = [
   {
     id: 1,
@@ -5,8 +8,7 @@ export const projects = [
     startDate: "December 2024",
     endDate: "December 2024",
     skills: ["React", "Express", "Node.js", "MongoDB"],
-    imageUrl:
-      "https://www.greengeeks.com/tutorials/wp-content/uploads/2020/07/news-blog-stylish-news-theme.png",
+    imageUrl: autoBlog,
     descriptions: [
       "Developed an auto-generated blog based on current trends.",
       "Implemented real-time data processing using Bing and OpenAI API.",
@@ -14,7 +16,7 @@ export const projects = [
       "ChatGPT uses the result from Bing API and generates blog posts based on those trends.",
       "API: ChatGPT 4o-mini, and Azure Bing API.",
     ],
-    link: "https://www.google.com",
+    // link: "https://www.google.com",
   },
   {
     id: 2,
@@ -22,8 +24,7 @@ export const projects = [
     startDate: "September 2024",
     endDate: "April 2025",
     skills: ["React", "TypeScript", "GraphQL", "PostgreSQL"],
-    imageUrl:
-      "https://www.greengeeks.com/tutorials/wp-content/uploads/2020/07/news-blog-stylish-news-theme.png",
+    imageUrl: careerAssessment,
     descriptions: [
       "A career success assessment tool for Uvaro users to evaluate their progress, where they are today, and where they want to go.",
       "Developed a user-friendly web application designed to offer a guided experience for assessing and tracking educational progress helping participants to evaluate their academic growth.",
