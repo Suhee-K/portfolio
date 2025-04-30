@@ -18,6 +18,7 @@ const SkillIcon = ({ icon, name }: SkillIconProps) => {
         stylingMode="text"
         width={80}
         height={50}
+        disabled={true}
       />
       <h4 className="text-sm ml-4">{name}</h4>
     </div>

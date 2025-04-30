@@ -78,11 +78,11 @@ export const skillsData = [
   },
   {
     name: "Docker",
-    icon: "https://img.icons8.com/color/48/docker.png",
+    icon: "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000",
   },
   {
     name: "GitHub",
-    icon: "https://img.icons8.com/material-outlined/24/github--v1.png",
+    icon: "https://img.icons8.com/?size=100&id=62856&format=png&color=000000",
   },
 
   {
