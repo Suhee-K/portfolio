@@ -18,10 +18,13 @@ const AboutMe = () => {
         <div className="w-1/2">
           <h1 className="heading">About Me</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-            iste iure tempore error velit blanditiis. Dolore totam,
-            reprehenderit minima deleniti non nulla et laudantium amet, quis
-            fugit autem obcaecati. Sed.
+            Hello! I am Suhee Kim, a software developer with experience working
+            with modern web technologies like React, TypeScript, and Tailwind
+            CSS. My web development journey helped me to gain a strong
+            understanding of both frontend and backend technologies, allowing me
+            to create smooth user experiences. I am passionate about learning
+            new technologies and always looking for challenges, and I enjoy
+            collaborating with teams to deliver high-quality results.
           </p>
           <div className="mt-5 flex">
             <div>
