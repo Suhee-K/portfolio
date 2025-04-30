@@ -8,6 +8,7 @@ import config from "devextreme/core/config";
 import { licenseKey } from "./devextreme-license";
 import Footer from "./components/Footer";
 import Awards from "./sections/Awards";
+import Skills from "./sections/Skills";
 
 function App() {
   config({
@@ -22,6 +23,9 @@ function App() {
       </section>
       <section id="aboutme">
         <AboutMe />
+      </section>
+      <section id="skills">
+        <Skills />
       </section>
       <section id="experiences">
         <Experience />

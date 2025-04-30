@@ -3,14 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #5486ff;
+  /* --primary-color: #5486ff; */
+  --primary-color: #a9bff3;
   /* --secondary-color: #d1dfff; */
   --secondary-color: #e5edff;
   --base-font: "Segoe UI", sans-serif;
 }
 
 .heading {
-  @apply font-semibold text-3xl mb-5;
+  @apply font-semibold text-3xl mb-5 text-darkgray;
 }
 
 .subheading {

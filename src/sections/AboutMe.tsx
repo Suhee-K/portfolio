@@ -17,7 +17,7 @@ const AboutMe = () => {
         </style>
         <div className="w-1/2">
           <h1 className="heading">About Me</h1>
-          <p>
+          <p className="text-darkgray">
             Hello! I am Suhee Kim, a software developer with experience working
             with modern web technologies like React, TypeScript, and Tailwind
             CSS. My web development journey helped me to gain a strong
@@ -67,9 +67,9 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2">
+        {/* <div className="w-1/2">
           <Skills />
-        </div>
+        </div> */}
       </div>
     </div>
   );
