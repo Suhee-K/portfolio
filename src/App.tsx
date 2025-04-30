@@ -25,14 +25,14 @@ function App() {
         <section id="aboutme">
           <AboutMe />
         </section>
-        <section id="skills">
-          <Skills />
-        </section>
         <section id="experiences">
           <Experience />
         </section>
         <section id="projects">
           <Projects />
+        </section>
+        <section id="skills">
+          <Skills />
         </section>
         <section id="awards">
           <Awards />

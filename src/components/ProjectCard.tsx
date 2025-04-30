@@ -27,7 +27,6 @@ const ProjectCard = ({
         src={imageUrl}
         alt="project"
         className="rounded-lg w-full lg:w-1/2 lg:ml-20 xl:ml-0"
-        // className="rounded-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5"
       />
       <div className="w-full space-y-5 flex flex-col justify-center mt-7 md:mt-0">
         <div className="flex items-center justify-between">
@@ -50,8 +49,6 @@ const ProjectCard = ({
             <SkillTag skill={skill} key={index} />
           ))}
         </div>
-        {/* <p className="pb-5">{description}</p> */}
-
         {descriptions && (
           <ul className="list-disc ml-5">
             {descriptions.map((description, index) => (
