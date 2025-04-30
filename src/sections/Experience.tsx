@@ -32,7 +32,10 @@ const Experience = () => {
       <hr />
       <div className="my-16">
         <h1 className="heading text-center ">Experiences</h1>
-        <div className="w-1/2 mx-auto mt-10" id="accordion">
+        <div
+          className="mx-5 md:mx-10 lg:mx-36 xl:w-1/2 xl:mx-auto mt-10"
+          id="accordion"
+        >
           <Accordion
             dataSource={sortedCompanies}
             collapsible={true}

@@ -8,10 +8,7 @@ interface SkillIconProps {
 
 const SkillIcon = ({ icon, name }: SkillIconProps) => {
   return (
-    <div
-      className="py-2 px-4 bg-gray-50 rounded-lg flex items-center hover:scale-110 cursor-pointer md:w-48 w-40"
-      // className="opacity: 1; transform: none;"
-    >
+    <div className="py-2 px-4 bg-gray-50 rounded-lg flex items-center hover:scale-110 cursor-pointer md:w-48 w-40">
       <Button
         type="normal"
         icon={icon}

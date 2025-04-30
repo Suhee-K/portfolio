@@ -6,9 +6,9 @@ const Awards = () => {
   return (
     <div>
       <hr />
-      <div className="my-16 mx-10">
+      <div className="my-16 mx-10 2xl:mx-auto 2xl:w-1/2">
         <h1 className="heading text-center">Awards</h1>
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {sortedAward.map((award, index) => (
             <AwardCard key={index} {...award} />
           ))}

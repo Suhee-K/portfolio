@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div>
       <hr />
-      <div className="my-16 mx-10 ">
+      <div className="my-16 md:mx-10 2xl:mx-auto 2xl:w-1/2">
         <h1 className="heading text-center">Projects</h1>
         {sortedProjects.map((project, index) => (
           <ProjectCard key={index} {...project} />

@@ -49,12 +49,12 @@ export const skillsData = [
     icon: "https://img.icons8.com/?size=100&id=39913&format=png&color=000000",
   },
   {
-    name: "Microsoft SQL Server",
-    icon: "https://img.icons8.com/color/48/microsoft-sql-server.png",
-  },
-  {
     name: "MongoDB",
     icon: "https://img.icons8.com/color/48/mongodb.png",
+  },
+  {
+    name: "Microsoft SQL Server",
+    icon: "https://img.icons8.com/color/48/microsoft-sql-server.png",
   },
   {
     name: "PostgreSQL",

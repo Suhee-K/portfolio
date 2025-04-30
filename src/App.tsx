@@ -18,24 +18,26 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <section id="home">
-        <Hero />
-      </section>
-      <section id="aboutme">
-        <AboutMe />
-      </section>
-      <section id="skills">
-        <Skills />
-      </section>
-      <section id="experiences">
-        <Experience />
-      </section>
-      <section id="projects">
-        <Projects />
-      </section>
-      <section id="awards">
-        <Awards />
-      </section>
+      <div className="">
+        <section id="home">
+          <Hero />
+        </section>
+        <section id="aboutme">
+          <AboutMe />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="experiences">
+          <Experience />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="awards">
+          <Awards />
+        </section>
+      </div>
       <Footer />
     </div>
   );

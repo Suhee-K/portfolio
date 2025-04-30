@@ -1,10 +1,8 @@
-import React from "react";
 import Button from "devextreme-react/button";
-import Skills from "./Skills";
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className="">
       <hr />
       <div className="flex justify-around gap-60 my-16 mx-10">
         <style>
@@ -15,9 +13,9 @@ const AboutMe = () => {
           }
         `}
         </style>
-        <div className="w-1/2">
-          <h1 className="heading">About Me</h1>
-          <p className="text-darkgray">
+        <div className="lg:w-3/4 xl:w-1/2 lg:mx-auto">
+          <h1 className="heading text-center">About Me</h1>
+          <p className="text-darkgray text-base/7 xl:text-lg/7">
             Hello! I am Suhee Kim, a software developer with experience working
             with modern web technologies like React, TypeScript, and Tailwind
             CSS. My web development journey helped me to gain a strong
@@ -67,9 +65,6 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        {/* <div className="w-1/2">
-          <Skills />
-        </div> */}
       </div>
     </div>
   );
