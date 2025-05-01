@@ -27,9 +27,9 @@ const Nav = () => {
         >
           <Item text="Home" />
           <Item text="About Me" />
-          <Item text="Skills" />
           <Item text="Experiences" />
           <Item text="Projects" />
+          <Item text="Skills" />
           <Item text="Awards" />
         </Tabs>
       </div>
